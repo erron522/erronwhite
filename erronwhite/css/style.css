@@ -48,7 +48,8 @@ h1, h2, h3, h4, h5,
 
 #hero {
     background: url(../images/hero_bg02.jpg) no-repeat center top fixed;
-    background-size: cover;
+    /*background-size: cover;*/
+    background-color: black;
 }
 #overlay-1 {
     /* background-color: rgba(32, 30, 30, 0.52); */
@@ -668,9 +669,9 @@ margin-top: 20px;
 
   @media screen and (min-width: 576px) {
     #contact {
-      max-width: 1200px;
-      margin-left: 15%;
-      margin-right: 15%;
+      max-width: 700px;
+      /*margin-left: 15%;
+      margin-right: 15%;*/
     }
 
 
@@ -753,7 +754,14 @@ textarea {
     .probootstrap-vh-100 {
       height: inherit;
       padding-top: 5em;
-      padding-bottom: 5em; } }
+      padding-bottom: 5em; }
+
+section#contact {
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+    }
 
 .probootstrap-vh-75 {
   height: 75vh; }
